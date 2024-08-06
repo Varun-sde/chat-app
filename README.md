@@ -73,7 +73,7 @@ To get a local copy of this project up and running, follow these simple steps.
 - **Sign out:** Securely sign out of your account.
  
 ## 🤝 Contributing
- - Fork the Project
+ - **Fork the Project**
  - **Create your Feature Branch:**
   
    ```bash
@@ -92,10 +92,10 @@ To get a local copy of this project up and running, follow these simple steps.
    git push origin feature/YourFeature
    ```
    
- - Open a Pull Request
+ - **Open a Pull Request**
  
 # 📝 License
 Distributed under the MIT License. See LICENSE for more information.
 
 ## 📞 Contact
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/](https://www.linkedin.com/in/varun-kangotra-dev))
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/varun-kangotra-dev)
