@@ -70,14 +70,17 @@ To get a local copy of this project up and running, follow these simple steps.
 ## 🤝 Contributing
  - Fork the Project
  - Create your Feature Branch
+  
    ```bash
    git checkout -b feature/YourFeature
    ```
  - Commit your Changes
+  
    ```bash
    git checkout -b feature/YourFeature
    ```
  - Push to the Branch
+  
    ```bash
    git push origin feature/YourFeature
    ```
