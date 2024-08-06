@@ -28,38 +28,42 @@ Welcome to the Chat App project! This application is built using Next.js and Sup
 ## 🚀 Getting Started
 To get a local copy of this project up and running, follow these simple steps.
 
-#### Prerequisites
+**Prerequisites**
 - Node.js (v14 or later)
 - npm or yarn
 - Supabase account
 
-#### ⚙️ Setup
- 1) Clone the repository:
+**⚙️ Setup**
+ **1) Clone the repository:**
+ 
     ```bash
     git clone https://github.com/Varun-sde/chat-app.git
     cd chat-app
     ``` 
- 2) Install dependencies:
+ **2) Install dependencies:**
+ 
      ```bash
      npm install
         # or
      yarn install
      ```
- 3) Configure Supabase:
+ **3) Configure Supabase:**
  - Create a new project in Supabase.
  - Copy your Supabase URL and Anon Key.
- - Create a `.env.local` file in the root directory and add the following:
+ - Create a **.env.local** file in the root directory and add the following:
+  
    ```bash 
    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url   
    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
    ```
- 4) Run the development server:
-    ```bash
-    npm run dev
-      # or
-    yarn dev
-    ```
-    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ **4) Run the development server:**
+ 
+      ```bash
+      npm run dev
+         # or
+       yarn dev
+      ```
+   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
     
 ## 💡 Usage
 - **Sign up / Sign in:** Create a new account or sign in with an existing account.
