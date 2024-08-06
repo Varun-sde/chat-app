@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+📱 Chat App
+Welcome to the Chat App project! This application is built using Next.js and Supabase, and it features user authentication and sign-out functionality.
 
-## Getting Started
+📋 Table of Contents
+- Features
+- Technologies Used
+- Getting Started
+- Setup
+- Usage
+- Contributing
+- License
+- Contact
 
-First, run the development server:
+✨ Features
+- 🗨️ Real-time chat functionality
+- 🔒 User authentication (sign up, sign in, and sign out)
+- 🛡️ Secure and scalable backend with Supabase
+- 📱 Responsive design for various screen sizes
+ 
+🛠️ Technologies Used
+- Next.js
+- Supabase
+- React
+- JavaScript
+- TypeScript
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🚀 Getting Started
+To get a local copy of this project up and running, follow these simple steps.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Prerequisites
+- Node.js (v14 or later)
+- npm or yarn
+- Supabase account
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+⚙️ Setup
+1) Clone the repository:
+ - git clone https://github.com/Varun-sde/chat-app.git
+ - cd chat-app
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2) Install dependencies:
+ - npm install (or) yarn install
 
-## Learn More
+3) Configure Supabase:
+ - Create a new project in Supabase.
+ - Copy your Supabase URL and Anon Key.
+ - Create a .env.local file in the root directory and add the following:
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
-To learn more about Next.js, take a look at the following resources:
+4) Run the development server:
+ - npm run dev (or) yarn dev
+ - Open http://localhost:3000 to view it in the browser.    
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+💡 Usage
+- Sign up / Sign in: Create a new account or sign in with an existing account.
+- Chat: Start chatting in real-time with other authenticated users.
+- Sign out: Securely sign out of your account.
+ 
+🤝 Contributing
+ - Fork the Project
+ - Create your Feature Branch (git checkout -b feature/YourFeature)
+ - Commit your Changes (git commit -m 'Add some YourFeature')
+ - Push to the Branch (git push origin feature/YourFeature)
+ - Open a Pull Request
+ 
+📝 License
+Distributed under the MIT License. See LICENSE for more information.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+📞 Contact
+LinkedIn:  https://www.linkedin.com/in/varun-kangotra-dev
+Project Link: https://github.com/Varun-sde/chat-app
