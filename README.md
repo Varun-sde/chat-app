@@ -33,36 +33,33 @@ To get a local copy of this project up and running, follow these simple steps.
 - npm or yarn
 - Supabase account
 
-**⚙️ Setup**
- **1) Clone the repository:**
- 
-    ```bash
-    git clone https://github.com/Varun-sde/chat-app.git
-    cd chat-app
-    ``` 
- **2) Install dependencies:**
- 
+## ⚙️ Setup
+**1) Clone the repository:** 
+     ```bash
+     git clone https://github.com/Varun-sde/chat-app.git
+     cd chat-app
+     ```
+**2) Install dependencies:** 
      ```bash
      npm install
         # or
      yarn install
      ```
- **3) Configure Supabase:**
- - Create a new project in Supabase.
+ #### **3) Configure Supabase:**
+ - Create a new project in [Supabase](https://supabase.com/).
  - Copy your Supabase URL and Anon Key.
- - Create a **.env.local** file in the root directory and add the following:
+ - Create a `.env.local` file in the root directory and add the following:
   
    ```bash 
    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url   
    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
    ```
- **4) Run the development server:**
- 
-      ```bash
-      npm run dev
-         # or
-       yarn dev
-      ```
+**4) Run the development server:** 
+   ```bash
+   npm run dev
+     # or
+   yarn dev
+   ```
    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
     
 ## 💡 Usage
@@ -72,9 +69,18 @@ To get a local copy of this project up and running, follow these simple steps.
  
 ## 🤝 Contributing
  - Fork the Project
- - Create your Feature Branch `git checkout -b feature/YourFeature`
- - Commit your Changes `git commit -m 'Add some YourFeature'`
- - Push to the Branch `git push origin feature/YourFeature`
+ - Create your Feature Branch
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+ - Commit your Changes
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+ - Push to the Branch
+   ```bash
+   git push origin feature/YourFeature
+   ```
  - Open a Pull Request
  
 # 📝 License
