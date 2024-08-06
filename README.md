@@ -35,36 +35,36 @@ To get a local copy of this project up and running, follow these simple steps.
 
 #### ⚙️ Setup
  1) Clone the repository:
- ```bash
-  git clone https://github.com/Varun-sde/chat-app.git
-  # or
-  cd chat-app
-``` 
+    ```bash
+       git clone https://github.com/Varun-sde/chat-app.git
+       # or
+       cd chat-app
+    ``` 
  2) Install dependencies:
-  ```bash
-  npm install
-  # or
-  yarn install
-```
-
-#### 3) Configure Supabase:
+     ```bash
+        npm install
+        # or
+        yarn install
+     ```
+ 3) Configure Supabase:
  - Create a new project in Supabase.
  - Copy your Supabase URL and Anon Key.
  - Create a `.env.local` file in the root directory and add the following:
- ```bash 
-   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url   
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-4) Run the development server:
- ```bash
-    npm run dev
-    # or
-    yarn dev
-```
-Open `http://localhost:3000` to view it in the browser.
-
+   ```bash 
+      NEXT_PUBLIC_SUPABASE_URL=your_supabase_url   
+      NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+   ```
+ 4) Run the development server:
+    ```bash
+       npm run dev
+       # or
+       yarn dev
+    ```
+    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    
 ## 💡 Usage
-- Sign up / Sign in: Create a new account or sign in with an existing account.
+#### - Sign up / Sign in:
+  Create a new account or sign in with an existing account.
 - Chat: Start chatting in real-time with other authenticated users.
 - Sign out: Securely sign out of your account.
  
