@@ -32,15 +32,21 @@ To get a local copy of this project up and running, follow these simple steps.
 - npm or yarn
 - Supabase account
 
-# ⚙️ Setup
-1) Clone the repository:
- `git clone https://github.com/Varun-sde/chat-app.git`
- `cd chat-app`
-
-2) Install dependencies:
- `npm install`
-# or
- `yarn install`
+## ⚙️ Setup
+ 1) Clone the repository:
+ ```bash
+  git clone https://github.com/Varun-sde/chat-app.git
+``` 
+ ```bash
+   cd chat-app
+```
+ 2) Install dependencies:
+  ```bash
+  npm install
+```
+ ```bash
+  yarn install
+```
 
 ## 4) Configure Supabase:
  - Create a new project in Supabase.
