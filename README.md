@@ -58,14 +58,13 @@ To get a local copy of this project up and running, follow these simple steps.
    ```
    
 #### **4) Run the development server:** 
-
+-
    ```bash
    npm run dev
      # or
    yarn dev
    ```
-
-   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
     
 ## 💡 Usage
 - **Sign up / Sign in:** Create a new account or sign in with an existing account.
