@@ -1,4 +1,4 @@
-📱 Chat App
+# 📱Chat App
 Welcome to the Chat App project! This application is built using Next.js and Supabase, and it features user authentication and sign-out functionality.
 
 📋 Table of Contents
