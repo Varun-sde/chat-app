@@ -39,7 +39,7 @@ To get a local copy of this project up and running, follow these simple steps.
    git clone https://github.com/Varun-sde/chat-app.git
    cd chat-app
    ```
-#### **2) Install dependencies:** 
+#### **2) Install dependencies:**
 
    ```bash
    npm install
