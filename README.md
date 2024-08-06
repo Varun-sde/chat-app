@@ -1,7 +1,7 @@
 # 📱Chat App
 Welcome to the Chat App project! This application is built using Next.js and Supabase, and it features user authentication and sign-out functionality.
 
-# 📋 Table of Contents
+## 📋 Table of Contents
 - Features
 - Technologies Used
 - Getting Started
@@ -11,13 +11,13 @@ Welcome to the Chat App project! This application is built using Next.js and Sup
 - License
 - Contact
 
-# ✨ Features
+## ✨ Features
 - 🗨️ Real-time chat functionality
 - 🔒 User authentication (sign up, sign in, and sign out)
 - 🛡️ Secure and scalable backend with Supabase
 - 📱 Responsive design for various screen sizes
  
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 - Next.js
 - Supabase
 - React
@@ -27,7 +27,7 @@ Welcome to the Chat App project! This application is built using Next.js and Sup
 # 🚀 Getting Started
 To get a local copy of this project up and running, follow these simple steps.
 
-Prerequisites
+## Prerequisites
 - Node.js (v14 or later)
 - npm or yarn
 - Supabase account
@@ -38,25 +38,30 @@ Prerequisites
  `cd chat-app`
 
 2) Install dependencies:
- `npm install (or) yarn install`
+ `npm install`
+# or
+ `yarn install`
 
-3) Configure Supabase:
+## 4) Configure Supabase:
  - Create a new project in Supabase.
  - Copy your Supabase URL and Anon Key.
  - Create a .env.local file in the root directory and add the following:
    `NEXT_PUBLIC_SUPABASE_URL=your_supabase_url`
+   
    `NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key`
 
 4) Run the development server:
- `npm run dev (or) yarn dev`
+ `npm run dev`
+# or
+ `yarn dev`
  `Open http://localhost:3000 to view it in the browser.`    
 
-# 💡 Usage
+## 💡 Usage
 - Sign up / Sign in: Create a new account or sign in with an existing account.
 - Chat: Start chatting in real-time with other authenticated users.
 - Sign out: Securely sign out of your account.
  
-# 🤝 Contributing
+## 🤝 Contributing
  - Fork the Project
  - Create your Feature Branch (git checkout -b feature/YourFeature)
  - Commit your Changes (git commit -m 'Add some YourFeature')
@@ -66,6 +71,5 @@ Prerequisites
 # 📝 License
 Distributed under the MIT License. See LICENSE for more information.
 
-# 📞 Contact
-LinkedIn:  https://www.linkedin.com/in/varun-kangotra-dev
-Project Link: https://github.com/Varun-sde/chat-app
+## 📞 Contact
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/](https://www.linkedin.com/in/varun-kangotra-dev))
